@@ -5,9 +5,8 @@ const Navbar = () => {
   return (
     <div className='sideBar'>
         <div className='navBar'>
-        <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1666827914/RadicallX-Black-Logo_1_caprwu.png" alt="logo" />
-        <nav>
-          <ul className='navList'>
+        <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1666827914/RadicallX-Black-Logo_1_caprwu.png" alt="logo" className='logo' />
+        <ul className='navList'>
             <li>
               <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1666828234/dashboard-3_yov2lc.png" alt="" />
               <p>Dashboard</p>
@@ -28,8 +27,7 @@ const Navbar = () => {
               <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1666828234/setting-2_kg11mn.png" alt="" />
               <p>Settings</p>
             </li>
-          </ul>
-        </nav>
+        </ul>
         </div>
         <div className='navBottom'>
           <span></span>
