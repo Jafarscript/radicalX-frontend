@@ -1,7 +1,15 @@
 .App{
   background: #F1F4F8;
-  padding: 16px 16px;
   display: grid;
-  grid-template-columns: 0.7fr 3.3fr;
+  grid-template-columns: 0.8fr 3.2fr;
   grid-template-rows: 1fr;
+}
+
+.left{
+  height: 100vh;
+  padding: 16px;
+}
+
+section{
+  padding: 50px 60px 50px 20px;
 }
