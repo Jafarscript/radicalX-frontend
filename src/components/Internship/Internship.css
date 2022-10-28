@@ -33,3 +33,32 @@ header h2{
     color: #ffffff;
     gap: 12px;
 }
+
+.insight{
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+article{
+    background: #F6F5F9;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+article h3{
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+article p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 12px;
+}

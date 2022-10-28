@@ -11,6 +11,12 @@ const Internship = ({toogleSelect}) => {
           Create New Internship
         </button>
       </header>
+      <div className="insight">
+        <article>
+          <h3>Internship Insights</h3>
+          <p>In the eighteenth century the German philosopher Immanuel Kant developed a theory of knowledge in which knowledge about space can be both a priori and synthetic.</p>
+        </article>
+      </div>
     </div>
   )
 }
