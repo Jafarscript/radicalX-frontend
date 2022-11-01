@@ -41,12 +41,20 @@ header h2{
     margin-top: 42px;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    gap: 16px;
 }
 
 article{
     background: #F6F5F9;
     border-radius: 16px;
+    flex-grow: 3;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
     padding: 16px;
+    padding-right: 35px;
 }
 
 article h3{
@@ -61,4 +69,144 @@ article p{
     font-weight: 400;
     font-size: 14px;
     margin-top: 12px;
+    color: #1E1E1E;
 }
+
+.chart nav{
+    background: #F2F2F2;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.btns{
+    display: flex;
+    gap: 12px;
+}
+.btns button{
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.btns button:nth-child(1){
+    background: #793EF5;
+    color: #FFFFFF;
+}
+
+.btns button:nth-child(2){
+    background: #FFFFFF;
+    color: #1E1E1E;
+}
+.btn-date{
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+}
+.wrapper{
+    border-radius: 20px;
+}
+table{
+    margin-top: 24px;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
+}
+
+thead tr{
+    background: #F6F5F9;
+}
+thead tr th{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px 12px;
+}
+
+.rowh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+tbody{
+    background: #FFFFFF;
+}
+
+tbody tr td{
+    padding: 16px;
+}
+
+thead th:nth-child(1) {
+    width: 34%;
+}
+
+thead th:nth-child(2) {
+    width: 18%;
+}
+
+thead th:nth-child(3) {
+    width: 14%;
+}
+
+thead th:nth-child(4) {
+    width: 22%;
+}
+
+thead th:nth-child(5) {
+    width: 12%;
+}
+
+td:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+td:nth-child(1) h4{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F3031;
+}
+
+td:nth-child(1) p{
+    width: 195px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2F3031;
+}
+
+td:nth-child(2) p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+}
+
+td:nth-child(2) h4{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+
