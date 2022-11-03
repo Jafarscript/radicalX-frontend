@@ -40,14 +40,14 @@ header h2 {
   border-radius: 16px;
   margin-top: 42px;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1.2fr 2fr;
   gap: 16px;
 }
 
 article {
   background: #f6f5f9;
   border-radius: 16px;
-  flex-grow: 3;
+  width: 100%;
 }
 
 article div {
@@ -71,7 +71,11 @@ article p {
   margin-top: 12px;
   color: #1e1e1e;
 }
-
+.chart{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
 .chart nav {
   background: #f2f2f2;
   border-radius: 12px;

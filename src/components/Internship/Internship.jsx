@@ -1,6 +1,6 @@
 import React from 'react'
 import './Internship.css'
-
+import Chart from '../Chart/Chart'
 const Internship = ({toogleSelect}) => {
   return (
     <div className={toogleSelect === 3 ? 'active' : 'internTab'}>
@@ -18,7 +18,7 @@ const Internship = ({toogleSelect}) => {
           <p>In the eighteenth century the German philosopher Immanuel Kant developed a theory of knowledge in which knowledge about space can be both a priori and synthetic.</p>
           </div>
         </article>
-        <section className='chart'>
+        <aside className='chart'>
           <nav>
             <div className='btns'>
               <button>This week</button>
@@ -26,7 +26,8 @@ const Internship = ({toogleSelect}) => {
             </div>
             <button className='btn-date'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667303070/calendar-2_tifh1r.png" alt="" /> Select Date</button>
           </nav>
-        </section>
+          <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667504788/Funnel_rozbgg.png" alt="" />
+        </aside>
       </div>
       <table className='wrapper'>
         <thead>
