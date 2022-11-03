@@ -62,12 +62,100 @@ const Internship = ({toogleSelect}) => {
             <h4>120 days</h4>
             <p>(created on 10/12/2021)</p>
           </td>
-          <td>20,000</td>
-          <td> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305309/Row_oojnkj.png" alt="" /></td>
+          <td className='enroll'>
+            <p>20,000</p>
+          </td>
+          <td className='bar-chart'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667496935/Qualified_Candidates_acg5u5.png" alt="" /></td>
           <td>
+            <div className="action">
             <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305432/chart_xvjozy.png" alt="" />
             <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305433/profile-2user_aaxk1r.png" alt="" />
             <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305417/more-2_g4vx6s.png" alt="" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Product Design GVI</h4>
+            <p>Amet minim mollit non deserunt est sit aliqua dolor do amet sint. </p>
+          </td>
+          <td>
+            <h4>120 days</h4>
+            <p>(created on 10/12/2021)</p>
+          </td>
+          <td className='enroll'>
+            <p>20,000</p>
+          </td>
+          <td className='bar-chart'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667496935/Qualified_Candidates_acg5u5.png" alt="" /></td>
+          <td>
+            <div className="action">
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305432/chart_xvjozy.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305433/profile-2user_aaxk1r.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305417/more-2_g4vx6s.png" alt="" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Product Design GVI</h4>
+            <p>Amet minim mollit non deserunt est sit aliqua dolor do amet sint. </p>
+          </td>
+          <td>
+            <h4>120 days</h4>
+            <p>(created on 10/12/2021)</p>
+          </td>
+          <td className='enroll'>
+            <p>20,000</p>
+          </td>
+          <td className='bar-chart'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667496935/Qualified_Candidates_acg5u5.png" alt="" /></td>
+          <td>
+            <div className="action">
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305432/chart_xvjozy.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305433/profile-2user_aaxk1r.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305417/more-2_g4vx6s.png" alt="" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Product Design GVI</h4>
+            <p>Amet minim mollit non deserunt est sit aliqua dolor do amet sint. </p>
+          </td>
+          <td>
+            <h4>120 days</h4>
+            <p>(created on 10/12/2021)</p>
+          </td>
+          <td className='enroll'>
+            <p>20,000</p>
+          </td>
+          <td className='bar-chart'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667496935/Qualified_Candidates_acg5u5.png" alt="" /></td>
+          <td>
+            <div className="action">
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305432/chart_xvjozy.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305433/profile-2user_aaxk1r.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305417/more-2_g4vx6s.png" alt="" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Product Design GVI</h4>
+            <p>Amet minim mollit non deserunt est sit aliqua dolor do amet sint. </p>
+          </td>
+          <td>
+            <h4>120 days</h4>
+            <p>(created on 10/12/2021)</p>
+          </td>
+          <td className='enroll'>
+            <p>20,000</p>
+          </td>
+          <td className='bar-chart'> <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667496935/Qualified_Candidates_acg5u5.png" alt="" /></td>
+          <td>
+            <div className="action">
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305432/chart_xvjozy.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305433/profile-2user_aaxk1r.png" alt="" />
+            <img src="https://res.cloudinary.com/dvo8xhx6r/image/upload/v1667305417/more-2_g4vx6s.png" alt="" />
+            </div>
           </td>
         </tr>
         </tbody>
